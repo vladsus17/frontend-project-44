@@ -48,7 +48,7 @@ const brainProgression = () => {
             correctAnswersCount += 1;
         } else {
             console.log(`Wrong answer! The correct answer was ${hiddenNum}.`);
-            console.log('Let\'s try again!');
+            console.log(`Let\'s try again, ${getUserName()}`);
             return;
         }   
 
