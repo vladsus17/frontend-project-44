@@ -51,9 +51,9 @@ const brainProgression = () => {
             console.log(`Let\'s try again, ${getUserName()}!`);
             return;
         }   
-
-    console.log(`Congratulations, ${getUserName()}!`);
+        
     }
+    console.log(`Congratulations, ${getUserName()}!`);
 };
 
 brainProgression();
