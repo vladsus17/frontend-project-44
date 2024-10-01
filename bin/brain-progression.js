@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import { greetUser } from '../src/cli.js';
+import { greetUser, getUserName } from '../src/cli.js';
 
 
 greetUser();
@@ -52,7 +52,7 @@ const brainProgression = () => {
             return;
         }   
 
-    console.log('Congratulations, you won!');
+    console.log(`Congratulations, ${getUserName()}!`);
     }
 };
 

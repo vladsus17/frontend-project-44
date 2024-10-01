@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import { greetUser } from '../src/cli.js';
+import { greetUser, getUserName } from '../src/cli.js';
 
 greetUser();
 console.log ('Answer "yes" if the number is even, otherwise answer "no".');
@@ -36,7 +36,7 @@ function brainEvenGame() {
     }
 
   
-    console.log(`Congratulations, you won!`);
+    console.log(`Congratulations, ${getUserName()}!`);
 };
 
 brainEvenGame();

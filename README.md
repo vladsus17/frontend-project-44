@@ -9,7 +9,7 @@ Run the corresponding game command (brain-even, brain-calc, brain-gcd, brain-pro
 
 
 ***brain-even: 
-Game: "Even Check" (Brain Even)
+Game: "Even Check" (Brain even)
 
 Description:
 "Even Check" is a console-based game where the player is shown a random number and must answer:
@@ -21,8 +21,7 @@ How to play:
 2.Follow the instructions on the screen, answering yes or no depending on whether the number is even or odd.
 3.The game ends either after three consecutive correct answers or after a wrong answer.
 
-Example link:
-https://asciinema.org/connect/aaa7ef56-dbf5-4451-92e2-c07ea7f14d40
+Example link: https://asciinema.org/a/CE340LXM6tQ0gXtPqrI53QJua
 
 ***brain-calc:
 Game: "Calculator" (Brain Calc)
@@ -35,7 +34,7 @@ Run the game using the brain-calc command.
 Follow the instructions on the screen, solve the given math expression (addition, subtraction, or multiplication), and input the correct result.
 The game ends after three consecutive correct answers or after a wrong answer.
 
-example link: https://asciinema.org/a/1NcJq38m60ENVbd7kbpmh1Vgk
+example link: https://asciinema.org/a/94bxJuS67kv6v5hPOgiAKBrKN
 
 ***brain-gcd:
 Game: "Greatest Common Divisor" (Brain GCD)
@@ -48,7 +47,7 @@ Run the game using the brain-gcd command.
 Follow the instructions on the screen, calculate the GCD of the two numbers, and input the correct result.
 The game ends after three consecutive correct answers or after a wrong answer. 
 
-Example link: https://asciinema.org/a/LDDvEsHZrplYxjN4Nwl7oY7i0
+Example link:  https://asciinema.org/a/1puLiiqRIF5u033JMpVzhhOfJ
 
 ***brain-progression: 
 Game: "Arithmetic Progression" (Brain Progression)
@@ -61,7 +60,7 @@ Run the game using the brain-progression command.
 Follow the instructions on the screen, identify the missing number in the arithmetic progression, and input the correct number.
 The game ends after three consecutive correct answers or after a wrong answer.
 
-Exapmle link: https://asciinema.org/a/8mR0fVEErYgJsSGLiYlSbNsSI
+Exapmle link: https://asciinema.org/a/zF9EIPFn95hQ12NaS4So2Yyhq
 
 ***brain-prime:
 Game: "Prime Check" (Brain Prime)
@@ -74,4 +73,4 @@ Run the game using the brain-prime command.
 Follow the instructions on the screen, answer yes if the number is prime, or no if it's not.
 The game ends after three consecutive correct answers or after a wrong answer.
 
-Example link: https://asciinema.org/a/fvojhjFou187vSe8g5LDK3JzA
+Example link:  https://asciinema.org/a/x7mzRDqyPt12tmvOLXyjQxwdv

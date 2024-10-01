@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import { greetUser } from '../src/cli.js';
+import { greetUser, getUserName } from '../src/cli.js';
 import { generateRandomNumber } from '../src/index.js';
 
 greetUser();
@@ -28,7 +28,7 @@ const brainPrime = () => {
         const correctAnswer = isPrime(randomNum) ? 'yes' : 'no';
 
         if (userAnswer === correctAnswer) {
-        console.log('Correct!');
+        console.log(`Correct!`);
         correctAnswersCount += 1;
         } else {
         console.log(`Wrong answer! The correct answer was ${correctAnswer}.`);
@@ -36,7 +36,7 @@ const brainPrime = () => {
         return;
     }   
     }
-    console.log('Congratulations, you won!');
+    console.log(`Congratulations, ${getUserName()}!`);
 };
 
 brainPrime();

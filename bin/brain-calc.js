@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import { greetUser } from '../src/cli.js';
+import { greetUser, getUserName} from '../src/cli.js';
 import { generateRandomNumber } from '../src/index.js';
 
 greetUser();
@@ -47,7 +47,7 @@ const brainCalculator = () => {
             return;
         }   
     } 
-    console.log('Congratulations, you won!');
+    console.log(`Congratulations, ${getUserName()}!`);
 };
 
 brainCalculator();

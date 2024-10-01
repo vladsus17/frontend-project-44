@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import { greetUser } from '../src/cli.js';
+import { greetUser, getUserName } from '../src/cli.js';
 import { generateRandomNumber } from '../src/index.js';
 
 greetUser();
 console.log ('Find the greatest common divisor of given numbers.');
 
-const brainGdc = () => {
+const brainGcd = () => {
     let correctAnswersCount = 0;
 
     while (correctAnswersCount < 3) {
@@ -36,7 +36,7 @@ const brainGdc = () => {
             return;
         }   
     } 
-    console.log('Congratulations, you won!');
+    console.log(`Congratulations, ${getUserName()}!`);
 };
 
-brainGdc();
+brainGcd();
