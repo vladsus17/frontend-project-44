@@ -34,7 +34,7 @@ Run the game using the brain-calc command.
 Follow the instructions on the screen, solve the given math expression (addition, subtraction, or multiplication), and input the correct result.
 The game ends after three consecutive correct answers or after a wrong answer.
 
-example link: https://asciinema.org/a/94bxJuS67kv6v5hPOgiAKBrKN
+example link: https://asciinema.org/a/mwC4XZeuHtzcbkvGF5Dbj2G5D
 
 ***brain-gcd:
 Game: "Greatest Common Divisor" (Brain GCD)
