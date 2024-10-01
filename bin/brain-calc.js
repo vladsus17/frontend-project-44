@@ -43,7 +43,7 @@ const brainCalculator = () => {
             correctAnswersCount += 1;
         } else {
             console.log(`Wrong answer! The correct answer was ${correctAnswer}.`);
-            console.log(`Let\'s try again, ${getUserName()}`);
+            console.log(`Let\'s try again, ${getUserName()}!`);
             return;
         }   
     } 
