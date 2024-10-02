@@ -4,7 +4,7 @@ import readlineSync from 'readline-sync';
 import { greetUser, getUserName } from '../src/cli.js';
 
 greetUser();
-console.log ('Answer "yes" if the number is even, otherwise answer "no".');
+console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
 function generateRandomNumber() {
   return Math.floor(Math.random() * 100) + 1;
@@ -15,27 +15,27 @@ function isEven(number) {
 }
 
 function brainEvenGame() {
-    let correctAnswersCount = 0;
+  let correctAnswersCount = 0;
 
-    while (correctAnswersCount < 3) {
-        const randomNumber = generateRandomNumber();
-        console.log(`Question: ${randomNumber}`);
+  while (correctAnswersCount < 3) {
+    const randomNumber = generateRandomNumber();
+    console.log(`Question: ${randomNumber}`);
 
-        const userAnswer = readlineSync.question('Your answer: ').toLowerCase();
+    const userAnswer = readlineSync.question('Your answer: ').toLowerCase();
 
-        const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
+    const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
 
-        if (userAnswer === correctAnswer) {
-            console.log("Correct!");
-            correctAnswersCount++;
-        } else {
-            console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-            console.log(`Let's try again, ${getUserName()}!`);
-            return; 
-        }
+    if (userAnswer === correctAnswer) {
+      console.log('Correct!');
+      correctAnswersCount += 1;
+    } else {
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      console.log(`Let's try again, ${getUserName()}!`);
+      return;
     }
+  }
 
-    console.log(`Congratulations, ${getUserName()}!`);
+  console.log(`Congratulations, ${getUserName()}!`);
 };
 
 brainEvenGame();

@@ -1,5 +1,6 @@
-import globals from "globals";
-import pluginJs from "@eslint/js";
+import globals from 'globals';
+import pluginJs from '@eslint/js';
+import airbnb from 'eslint-config-airbnb-base/rules/style'; // Importa las reglas de Airbnb
 
 export default [
   {
@@ -11,9 +12,17 @@ export default [
       },
       parserOptions: {
         ecmaVersion: 2021,
-        sourceType: "module",
+        sourceType: 'module',
       },
     },
   },
   pluginJs.configs.recommended,
+  airbnb,
+  {
+    files: ['*.js'],
+    rules: {
+      'no-console': 'off',
+      'import/prefer-default-export': 'off',
+    },
+  },
 ];
