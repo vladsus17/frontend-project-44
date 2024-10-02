@@ -2,7 +2,7 @@
 
 import readlineSync from 'readline-sync';
 import { greetUser, getUserName } from '../src/cli.js';
-import { generateRandomNumber } from '../src/index.js';
+import generateRandomNumber from '../src/index.js';
 
 greetUser();
 
@@ -30,6 +30,8 @@ const brainCalculator = () => {
       case '*':
         correctAnswer = num1 * num2;
         break;
+      default:
+        throw new Error(`Operación no soportada: ${operation}`);
     }
 
     console.log(`Question: ${num1} ${operation} ${num2}`);

@@ -1,6 +1,6 @@
 import globals from 'globals';
 import pluginJs from '@eslint/js';
-import airbnb from 'eslint-config-airbnb-base/rules/style'; // Importa las reglas de Airbnb
+import airbnb from 'eslint-config-airbnb-base/rules/style.js';
 
 export default [
   {

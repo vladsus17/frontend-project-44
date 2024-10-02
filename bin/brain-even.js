@@ -36,6 +36,6 @@ function brainEvenGame() {
   }
 
   console.log(`Congratulations, ${getUserName()}!`);
-};
+}
 
 brainEvenGame();

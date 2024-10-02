@@ -2,7 +2,7 @@
 
 import readlineSync from 'readline-sync';
 import { greetUser, getUserName } from '../src/cli.js';
-import { generateRandomNumber } from '../src/index.js';
+import generateRandomNumber from '../src/index.js';
 
 greetUser();
 console.log('Find the greatest common divisor of given numbers.');
