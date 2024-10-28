@@ -8,6 +8,4 @@ export const greetUser = () => {
   console.log(`Hello, ${userName}!`);
 };
 
-export const getUserName = () => {
-  return userName;
-};
+export const getUserName = () => userName;
